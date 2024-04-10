@@ -1,0 +1,12 @@
+{
+	"name": "Workflow images",
+	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.19",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"github.vscode-github-actions",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	}
+}
